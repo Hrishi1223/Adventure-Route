@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: 100% 100%;
+   
+
+}
+header{
+    padding-right:  200px;;
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+   background-color:#48a2bc;
+   
+    
+}
+nav{
+    display: flex;
+    gap: 15px;   
+}
+nav a{
+    
+    padding: 25px ;
+    font-size:large; 
+    text-decoration: none;
+    color: white;
+    
+    
+   
+}
+nav a:hover{
+    border-bottom: 2px solid white; 
+}
+nav img{
+    height: 94px;
+    width: 170px;
+
+
+}
+
+
+
+
+
+/* angle right >>  */
+.carousel-caption a:hover i {
+    color: gold; /* Change the color on hover */
+    transform: scale(1.4); /* Optional: Add a scale effect */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+
+/* offer */
+.offer a:hover img{
+    transition:scale(1.5) ;
+    transition: transform 0.3 ease;
+}
+
+
+/* places of image */
+
+/* .cont{
+    overflow-x:scroll;
+    white-space: nowrap;
+    margin-top: 50px;
+    justify-items: center;
+
+}
+
+
+.containers{
+    display: inline-block;
+    height: 400px;
+    width: 370px;
+    
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 8px;
+    /* margin-left: 20px; */
+    
+   /* background-color: blue;
+    background-size: cover;
+  
+}
+
+ .card{
+
+  text-align: center;
+  box-shadow: 2px 5px 2px grey;
+}
+ .containers:hover .card {
+  transform: rotateY(180deg); /* Flip the card on hover */
+
+
+
+
+  /* Container for cards */
+.cont {
+  /* overflow-x: scroll; */
+  white-space: nowrap;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  
+  /* gap: 20px; */
+}
+ .card-title1 h2{
+  text-align: center; /* Center-align the text */
+  /* font-size: 24px; Adjust font size */
+  margin-bottom: 20px; /* Add space between the title and cards */
+  color: #48a2bc; /* Title color */
+  /* font-weight: bold; */
+    margin-top: 60px;
+    
+}
+
+
+
+.card-text1 {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translateY( -50%); /* Perfect centering */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+  z-index: 2;
+}
+
+/* Individual card container */
+.containers {
+  display: inline-block;
+  height: 400px;
+  width: 370px;
+  perspective: 1000px; /* Enables 3D flipping */
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* Enable 3D effect */
+  transition: transform 0.6s ease; /* Smooth flipping */
+}
+
+/* Flip the card on hover */
+.containers:hover .card {
+  transform: rotateY(180deg);
+}
+
+/* Front and Back styles */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back side when not flipped */
+}
+
+.card-front {
+  z-index: 2; /* Show front by default */
+}
+
+.card-back {
+  transform: rotateY(180deg); /* Initially hide the back side */
+  z-index: 1;
+}
+
+
+
+
+
+/*............................ desination page .............................. */
+

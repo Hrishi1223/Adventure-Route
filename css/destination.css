@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-size: 100% 100%;
+   
+
+}
+header{
+    padding-right:  100px;;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   background-color:#48a2bc;
+   
+    
+}
+nav{
+    display: flex;
+    gap: 15px;   
+}
+nav a{
+    
+    padding: 25px ;
+    font-size:large; 
+    text-decoration: none;
+    color: white;
+   
+}
+nav a:hover{
+    border-bottom: 2px solid white; 
+}
+nav img{
+    height: 94px;
+    width: 170px;
+
+
+}
+
+
+.cards-goa{
+
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+   height: 240px;
+   width: 90%;
+   background-color: #c8e9f4;
+   overflow: hidden;
+   font-weight: bold;
+   border-radius: 8px;
+   box-shadow: 5px 5px 5px ;
+   justify-content: center;
+  align-items: center;   
+   
+  }
+  .cards-span{
+    width: 90%;
+    
+  }
+  .cards-h5{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .cards-p{
+
+    text-align: center;
+  }
+  
+  #card-list{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 20%;
+    width: 100%;
+    border: 2px solid black;
+    
+    
+  }
+  
+  #btn-hover a:hover{
+    background-color: orange;
+    color: black;
+  }
+  
+.cards-manali{
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+   height: 240px;
+   width: 90%;
+   background-color: #c8e9f4;
+   overflow: hidden;
+   font-weight: bold;
+   border-radius: 8px;
+   box-shadow: 5px 5px 5px ;
+   justify-content: center;
+  align-items: center;   
+}
+.cards-rishikesh{
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+   height: 240px;
+   width: 90%;
+   background-color: #c8e9f4;
+   overflow: hidden;
+   font-weight: bold;
+   border-radius: 8px;
+   box-shadow: 5px 5px 5px ;
+   justify-content: center;
+  align-items: center;
+}
+
+.cards-Ladakh{
+    margin-top: 25px;
+    display: flex;
+    justify-self: center;
+   height: 240px;
+   width: 90%;
+   background-color: #c8e9f4;
+   overflow: hidden;
+   font-weight: bold;
+   border-radius: 8px;
+   box-shadow: 5px 5px 5px ;
+   justify-content: center;
+  align-items: center;
+}
