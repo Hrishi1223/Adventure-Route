@@ -52,8 +52,8 @@ nav img{
 
 /* angle right >>  */
 .carousel-caption a:hover i {
-    color: gold; /* Change the color on hover */
-    transform: scale(1.4); /* Optional: Add a scale effect */
+    color: gold; 
+    transform: scale(1.4); /*  Add a scale effect */
     transition: all 0.3s ease; /* Smooth transition effect */
   }
   
@@ -113,8 +113,8 @@ nav img{
   /* gap: 20px; */
 }
  .card-title1 h2{
-  text-align: center; /* Center-align the text */
-  /* font-size: 24px; Adjust font size */
+  text-align: center;
+  /* font-size: 24px;  */
   margin-bottom: 20px; /* Add space between the title and cards */
   color: #48a2bc; /* Title color */
   /* font-weight: bold; */
@@ -126,14 +126,14 @@ nav img{
 
 .card-text1 {
   position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
+  top: 50%; 
+  left: 50%; 
   transform: translateY( -50%); /* Perfect centering */
   color: white;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
   z-index: 2;
 }
 
